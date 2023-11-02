@@ -2,8 +2,12 @@
 	"name": "new-reef-dapp",
 	"version": "0.0.6",
 	"keywords": [
+		"new-reef-app",
+		"new-reef-dapp",
 		"create-reef-app",
+		"create-reef-dapp",
 		"create reef app",
+		"new reef app",
 		"boilerplate",
 		"reef-chain"
 	],
@@ -26,9 +30,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/anukulpandey/create-reef-app.git"
+		"url": "git@github.com:reef-chain/new-reef-dapp.git"
 	},
-	"homepage": "https://github.com/anukulpandey/create-reef-app/blob/main/README.md",
+	"homepage": "https://github.com/reef-chain/new-reef-dapp/blob/main/README.md",
 	"devDependencies": {
 		"nodemon": "^2.0.20"
 	}
