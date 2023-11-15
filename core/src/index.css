@@ -1,50 +1,82 @@
-.balance-account-selector{
+.navbar-container {
     display: flex;
-    position: absolute;
-    right: 20px;
-    top: 10px;
-}
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  }
+  
+  .accounts-pill {
+    margin-right: 10px; 
+  }
 
-.toggle-switch{
+  .reef-logo{
+    padding: 4px;
+  }
+
+  .app{
+    min-height: 100vh;
+  }
+
+  .loader{
     display: flex;
-    position: absolute;
-    left: 20px;
-    top: 10px;
-}
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+  }
 
-.balance-account-selector-btn{
-    margin-right: 10px;
-}
-
-.assets-table{
-    margin-top: 80px;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-.headline-toggle-headline{
-    padding-right: 20px;
-}
-
-.headline-toggle{
+  .account-pill-btn{
     display: flex;
-}
+  }
 
-.table-and-nfts{
+  .account-pill-btn-address{
+    margin: 0;
+    border-radius: 0px 40px 40px 0px;
+    z-index: 1;
+  }
+
+  .account-pill-btn-name{
+    margin-right: -12px;
+    z-index: 2;
+  }
+
+  .container{
+    max-width: 80vw;
+
+  }
+
+  .greeter-container{
+    max-width: 50vw;
+    margin-top: 30px;
+
+  }
+
+  .body-container{
     display: flex;
-}
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
 
-.table-and-nfts__table{
-    flex: 1.7;
-}
+  .greeter-heading{
+    font-size: 14px;
+    margin-bottom: -20px;
+  }
 
-.table-and-nfts__nfts{
-    padding: 40px;
-    flex: 1;
+  .divider{
+    margin-bottom: -30px!important;
+  }
+
+  .greeter-btn{
+    width: 100%;
+  }
+
+  .navbar-switch{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-}
-.toggle-switch-title{
+  }
+
+  .navbar-balance{
     padding-left: 20px;
-}
+    display: flex;
+    align-items: center;
+  }
