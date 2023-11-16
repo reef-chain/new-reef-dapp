@@ -5231,24 +5231,6 @@
   resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
   integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
 
-"@reef-chain/evm-provider@2.0.0-alpha5":
-  version "2.0.0-alpha5"
-  resolved "https://registry.npmjs.org/@reef-chain/evm-provider/-/evm-provider-2.0.0-alpha5.tgz#786ee7b78131a9ab4e4b8e2ed5956c461524e9c1"
-  integrity sha512-A05uGmxtGejC7VUlg6JHUr8TqIdzVaeLB1ZDqYoAZBo10xRscsqp7H6akg1eXios6rkiQh5K6fbut+xd+ikwfw==
-  dependencies:
-    "@open-web3/dev-config" "^0.2.9"
-    "@open-web3/orml-api-derive" "^2.0.1"
-    "@open-web3/scanner" "^2.0.1"
-    "@polkadot/api" "^10.10.1"
-    "@polkadot/keyring" "^12.5.1"
-    "@polkadot/rpc-provider" "^10.10.1"
-    "@polkadot/types" "^10.10.1"
-    "@polkadot/util" "^12.5.1"
-    "@polkadot/util-crypto" "^12.5.1"
-    "@typescript-eslint/eslint-plugin" "4.8.1"
-    blakejs "~1.1.0"
-    ethers "~5.5.0"
-
 "@reef-chain/evm-provider@2.0.0-alpha6", "@reef-chain/evm-provider@^2.0.0-alpha6":
   version "2.0.0-alpha6"
   resolved "https://registry.npmjs.org/@reef-chain/evm-provider/-/evm-provider-2.0.0-alpha6.tgz#3278e1ab9f20456888e1da541cfe9c6b9e562b29"
@@ -5270,10 +5252,10 @@
     blakejs "~1.1.0"
     ethers "^6.8.0"
 
-"@reef-chain/react-lib@2.0.2-alpha1":
-  version "2.0.2-alpha1"
-  resolved "https://registry.npmjs.org/@reef-chain/react-lib/-/react-lib-2.0.2-alpha1.tgz#b58a5457102fa30fe6e2842e0929aa7f27399032"
-  integrity sha512-fjm93+3vm7b5nYd+nZbBrz4/jZjGGXbgeL0xyMSleXopF10JJH4XD8ibPFTFtQexPsYxgSLhrJPJ6zLup0JayA==
+"@reef-chain/react-lib@2.0.2-alpha2":
+  version "2.0.2-alpha2"
+  resolved "https://registry.yarnpkg.com/@reef-chain/react-lib/-/react-lib-2.0.2-alpha2.tgz#d270fa961cccc6b32fc9c93a2b636ea08f292b57"
+  integrity sha512-I82Mm2F7YNZjbLFYbT1jO+fkr6KGEkYVE5xuXjGyWuUCH7N7WbkSQ0Mpk8/zj8HBatWS1f3kLZ/dxsxfFDLVVg==
   dependencies:
     "@fortawesome/free-regular-svg-icons" "^6.1.0"
     "@fortawesome/free-solid-svg-icons" "^6.1.0"
@@ -5281,7 +5263,7 @@
     "@polkadot/react-identicon" "^0.86.4"
     "@reef-chain/evm-provider" "^2.0.0-alpha6"
     "@reef-chain/ui-kit" "^1.1.5"
-    "@reef-chain/util-lib" "^2.0.0-alpha1"
+    "@reef-chain/util-lib" "^2.0.0-alpha2"
     "@reef-defi/extension-base" "^1.0.14"
     "@reef-defi/extension-dapp" "^1.0.14"
     "@reef-defi/extension-inject" "^1.0.14"
@@ -5337,18 +5319,19 @@
     react-syntax-highlighter "^15.5.0"
     react-transition-group "^4.4.2"
 
-"@reef-chain/util-lib@2.0.0-alpha1", "@reef-chain/util-lib@^2.0.0-alpha1":
-  version "2.0.0-alpha1"
-  resolved "https://registry.npmjs.org/@reef-chain/util-lib/-/util-lib-2.0.0-alpha1.tgz#3b807200db422f9ead445461d3897ccdf8bda28e"
-  integrity sha512-VCT9FLVt6aiLdLamgEAc59VqELCFY8Mp5p31CHTDBojcJM+ire+aX4Y2QQdYXk2xNaUt+vQ0gaYKr19i1fqOUg==
+"@reef-chain/util-lib@2.0.0-alpha2", "@reef-chain/util-lib@^2.0.0-alpha2":
+  version "2.0.0-alpha2"
+  resolved "https://registry.yarnpkg.com/@reef-chain/util-lib/-/util-lib-2.0.0-alpha2.tgz#a4c1c867673c2c03392e228ed2b340b283b9a5fa"
+  integrity sha512-uwnZcC5GGAOE27qruG7xev5VIltYhsMQMUYPYeaHeAH/sM1BA+Hf0h0eVJWKZMb+AhsAH7oCZTES932RgCXLLQ==
   dependencies:
     "@polkadot/extension-inject" "^0.46.5"
-    "@reef-chain/evm-provider" "2.0.0-alpha5"
+    "@reef-chain/evm-provider" "2.0.0-alpha6"
     "@reef-defi/extension-base" "^1.0.10"
     "@reef-defi/extension-dapp" "^1.0.16"
     "@reef-defi/extension-inject" "^1.0.16"
     axios "^0.27.2"
     bignumber.js "^9.1.0"
+    ethers "^5.7.2"
     pusher-js "^8.2.0"
 
 "@reef-chain/util-lib@^0.4.0":
