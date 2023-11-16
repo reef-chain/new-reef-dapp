@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {hooks} from "@reef-chain/react-lib";
 import Uik from "@reef-chain/ui-kit";
 import Navbar from './components/Navbar';
@@ -7,13 +7,13 @@ import Greeter from './components/Greeter';
 
 function App() {
   const {
-    loading, error, signers, selectedReefSigner,
+    loading, error, signers, selectedReefSigner, provider, network, reefState
   } = hooks.useInitReefState(
     'Create Reef App', { },
   );
 
   return (
-    <ReefStateContext.Provider value={{signers,selectedReefSigner}}>
+    <ReefStateContext.Provider value={{signers, selectedReefSigner, network, provider, reefState}}>
     <div className='app'>
       <Navbar isConnected={signers && signers.length}/>
       <div className='body-container'>
