@@ -1,8 +1,10 @@
-# create-reef-app
+# new-reef-dapp
+
 A sample app for reef-chain uses react-lib for easy onboarding of devs.
 
-Use the command ``` npx create-reef-app  ``` to create a sample project, on top of which you can build your application. 
-After running the command you will see instructions on the terminal itself, just like this-
+Use the command `npx new-reef-dapp ` to create a sample project, on top of which
+you can build your application. After running the command you will see
+instructions on the terminal itself, just like this-
 
 <img width="579" alt="new-reef-app-img" src="/bin/new-reef-app-1.png">
 <br />

@@ -107,7 +107,7 @@ try {
 	);
 
 	console.log("\n");
-	console.log("🪸 Welcome to the create-reef-dapp wizard 🪸");
+	console.log("🪸 Welcome to the new-reef-dapp wizard 🪸");
 
 	// If the project path is not provided, ask the user for it
 	let projectPath = "";
