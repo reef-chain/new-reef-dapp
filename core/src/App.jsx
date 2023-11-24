@@ -32,7 +32,7 @@ function App() {
 					{error ? (
 						<>
 							<Uik.Card
-								title="npx create-reef-app"
+								title="npx new-reef-dapp"
 								titlePosition="center"
 								className="container"
 							>

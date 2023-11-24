@@ -17,7 +17,7 @@
 		"start": "node bin/cli.js"
 	},
 	"bin": {
-		"create-reef-app": "./bin/cli.js"
+		"new-reef-dapp": "./bin/cli.js"
 	},
 	"type": "module",
 	"dependencies": {
