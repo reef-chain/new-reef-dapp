@@ -27,7 +27,7 @@ const createDapp = (resolvedProjectPath, projectPath) => {
 			fse.mkdtemp(path.join(os.tmpdir(), "reef-"), (err, folder) => {
 				if (err) throw err;
 				execSync(
-					`git clone --depth 1 ${"https://github.com/anukulpandey/create-reef-app"} ${folder}`,
+					`git clone --depth 1 ${"https://github.com/reef-chain/new-reef-dapp"} ${folder}`,
 					{ stdio: "pipe" }
 				);
 				fse.copySync(path.join(folder, "core"), resolvedProjectPath);
@@ -107,7 +107,7 @@ try {
 	);
 
 	console.log("\n");
-	console.log("🪸 Welcome to the create-reef-dapp wizard 🪸");
+	console.log("🪸 Welcome to the new-reef-dapp wizard 🪸");
 
 	// If the project path is not provided, ask the user for it
 	let projectPath = "";

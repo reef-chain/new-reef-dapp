@@ -1,17 +1,24 @@
-# create-reef-app
-sample app for reef-chain , uses util-lib for easy onboarding of devs
+# new-reef-dapp
 
-use command ``` npx create-reef-app ``` to create a sample project , on top of which you can build your application. 
-After running the command you will see instructions on the terminal itself, just like this-
+A sample app for reef-chain uses react-lib for easy onboarding of devs.
 
-<img width="579" alt="Screenshot 2023-09-18 at 1 05 24 AM" src="https://github.com/anukulpandey/create-reef-app/assets/62092256/f9e87862-956a-4fb2-bc21-737de536704c">
+Use the command `npx new-reef-dapp ` to create a sample project, on top of which
+you can build your application. After running the command you will see
+instructions on the terminal itself, just like this-
 
+<img width="579" alt="new-reef-app-img" src="/bin/new-reef-app-1.png">
+<br />
+On your first run - it will ask you to authorize the app to use reef-extension, also keep in mind that, you need reef browser extension installed in your browser to use this, I will be adding more features to this boilerplate and refactoring the code soon.
 
-On your first run - it will ask you to authorize the app to use reef-extension, also keep in mind that , you need reef browser extension installed in your browser to use this, i will be adding more features to this boiler plate and refactoring the code soon.
-<img width="1147" alt="Screenshot 2023-09-18 at 1 06 38 AM" src="https://github.com/anukulpandey/create-reef-app/assets/62092256/6dc72e2c-0cef-4e0f-b650-23adf9a06f86">
+<br />
+<br />
+<img width="1147" alt="reef-auth-img" src="/bin/reef-auth-2.png">
 
-Serves a really basic sample Greeter smart contract , which allows to fetch and update data 
+<br />
+It serves an elementary sample Greeter smart contract, which allows for fetching and updating data 
 ## Usage 
-- Input some text and click on `Update Greeting` button, extension will pop up , sign the transaction , the Greeting will be updated shortly
+- Input some text and click on the `Update Greeting` button, an extension will pop up, sign the transaction, and the Greeting will be updated shortly
 
-<img width="1147" alt="Screenshot 2023-11-14 at 4 28 02 PM" src="https://github.com/reef-chain/new-reef-dapp/assets/62092256/f5b271ef-2110-403a-adf0-88fb46d77e5b">
+<br />
+<br />
+<img width="1147" alt="reef-app--img" src="/bin/reef-app-3.png">
